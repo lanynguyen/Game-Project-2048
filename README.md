@@ -1,8 +1,6 @@
 # Game-Project-2048
 
-===================
-=: Core Concepts :=
-===================
+## Core Concepts
 
 - List the four core concepts, the features they implement, and why each feature
   is an appropriate use of the concept. Incorporate the feedback you got after
@@ -28,18 +26,7 @@
     The main state of my game is the board (2D array). I create methods that take in directions as a
     parameter, and update the game accordingly. I design this functionality such that I can test it with JUnit.
 
-
-===============================
-=: File Structure Screenshot :=
-===============================
-- Include a screenshot of your project's file structure. This should include
-  all of the files in your project, and the folders they are in. You can
-  upload this screenshot in your homework submission to gradescope, named 
-  "file_structure.png".
-
-=========================
-=: Your Implementation :=
-=========================
+## Implementation
 
 - Provide an overview of each of the classes in your code, and what their
   function is in the overall game.
@@ -56,11 +43,3 @@
   private state encapsulated? What would you refactor, if given the chance?
   I closely followed the example code so I believe the functions are separated well and ensure for encapsulation.
   I would refactor my movement methods to be more effective and functional.
-
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (images, tutorials, etc.) that you may have used 
-  while implementing your game.
-  I asked for TA help and inspected the actual game through playing firsthand.
